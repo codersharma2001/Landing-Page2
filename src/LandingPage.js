@@ -184,7 +184,6 @@ const LandingPage = () => {
           <div className="logo"><img src={logoImage} alt="SEVA Token" className="logo-image" /></div>
           {windowWidth <= 767 && (
   <div className="mobile-menu" onClick={toggleMobileMenu}>
-    // <i className="fas fa-bars"></i>
   </div>
 )}
           <ul className={`nav-links ${mobileMenuOpen ? "active" : ""}`}>
