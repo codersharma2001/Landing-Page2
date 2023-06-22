@@ -1,0 +1,41 @@
+.about-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+  }
+  
+  .text-container {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .image-wrapper img {
+    max-width: 100%;
+    height: auto;
+  }
+  
